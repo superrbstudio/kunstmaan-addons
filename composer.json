@@ -18,7 +18,8 @@
     "moneyphp/money": "^3.2",
     "superrb/google-recaptcha": "^1.0",
     "symfony/mailer": "^4.4",
-    "symfony/mailgun-mailer": "^4.4"
+    "symfony/mailgun-mailer": "^4.4",
+    "kunstmaan/multidomain-bundle": "^5.7"
   },
   "autoload": {
     "psr-4": {

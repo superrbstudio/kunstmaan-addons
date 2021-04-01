@@ -86,7 +86,7 @@ services:
 
   Superrb\KunstmaanAddonsBundle\Site:
     arguments:
-      $domainConfiguration: "@Kunstmaan\\AdminBundle\\Helper\\DomainConfigurationInterface"
+      $domainConfiguration: "@kunstmaan_multi_domain.domain_configuration"
       $allowedHosts: []
       $mailchimpListIds: []
       $emailSenders:

@@ -5,10 +5,6 @@ parameters:
   translator.class: "@Superrb\\KunstmaanAddonsBundle\\Service\\Translator"
 
 services:
-  _defaults:
-    bind:
-      Kunstmaan\AdminBundle\Helper\DomainConfigurationInterface: "@kunstmaan_multi_domain.domain_configuration"
-
   kunstmaan_admin.versionchecker:
     class: Superrb\KunstmaanAddonsBundle\VersionCheck\VersionChecker
     arguments: ["@service_container", "@kunstmaan_admin.cache", "@translator"]

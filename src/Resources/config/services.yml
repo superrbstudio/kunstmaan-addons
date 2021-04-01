@@ -69,6 +69,7 @@ services:
   Symfony\Component\Translation\TranslatorInterface: "@Superrb\\KunstmaanAddonsBundle\\Service\\Translator"
   kunstmaan_translator.service.translator.translator: "@Superrb\\KunstmaanAddonsBundle\\Service\\Translator"
   Superrb\KunstmaanAddonsBundle\Service\Translator:
+    public: true
     arguments:
       - "@service_container"
       - "@Superrb\\KunstmaanAddonsBundle\\Site"
@@ -85,6 +86,7 @@ services:
     tags: ["kernel.locale_aware"]
 
   Superrb\KunstmaanAddonsBundle\Site:
+    public: true
     arguments:
       $domainConfiguration: "@kunstmaan_multi_domain.domain_configuration"
       $allowedHosts: []

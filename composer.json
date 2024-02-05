@@ -16,8 +16,8 @@
     "odolbeau/phone-number-bundle": "^3.0",
     "moneyphp/money": "^3.2",
     "superrb/google-recaptcha": "^1.0",
-    "symfony/mailer": "^4.4|^5.3",
-    "symfony/mailgun-mailer": "^4.4|^5.3"
+    "symfony/mailer": "^5.4|^6.4",
+    "symfony/mailgun-mailer": "^5.4|^6.4",
   },
   "autoload": {
     "psr-4": {
